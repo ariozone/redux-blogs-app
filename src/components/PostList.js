@@ -16,7 +16,7 @@ class PostList extends Component {
             <h2>{post.title}</h2>
             <p>{post.body}</p>
           </div>
-          <UserHeader />
+          <UserHeader userId={post.userId} />
         </div>
       </div>
     ))
