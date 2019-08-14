@@ -1,4 +1,5 @@
 import { combineReducers } from "redux"
+import postsReducer from "./postsReducer"
 export default combineReducers({
-  tempReducer: () => "this is temporary to avoid the warning message."
+  posts: postsReducer
 })
