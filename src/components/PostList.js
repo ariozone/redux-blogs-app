@@ -10,7 +10,7 @@ class PostList extends Component {
   renderList() {
     return this.props.posts.map(post => (
       <div className='item' key={post.id}>
-        <i className='large middle aligned icon user' />
+        <i className='@grey large middle aligned icon user ' />
         <div className='content'>
           <div className='description'>
             <h2>{post.title}</h2>
@@ -24,7 +24,8 @@ class PostList extends Component {
   render() {
     return (
       <div>
-        <h1>Post List</h1>
+        <h1>Posts</h1>
+        <h1> </h1>
         <div className='ui relaxed divided list'>{this.renderList()}</div>
       </div>
     )
