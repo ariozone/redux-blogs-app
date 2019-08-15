@@ -1,3 +1,32 @@
+# Redux Blogs App
+
+ A React-Redux application that uses asynchronous action creators and thunk middleware to fetch data and render blog posts.
+
+## Technologies
+- JavaScript
+- React.js
+- Redux
+- Axios
+- Lodash
+- react-redux
+- redux-thunk
+- HTML5
+- CSS3
+- Semantic Ui
+
+
+
+## Usage
+Clone and install dependencies.
+```
+git clone https://github.com/ariozone/redux-blogs-app.git
+cd redux-blogs-app/
+npm install
+```
+Run the app
+```
+npm start
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
